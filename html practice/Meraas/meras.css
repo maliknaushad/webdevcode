@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 39px 9px 50px 0px;
+    letter-spacing: 1.4em;
+    color: #fea706;
+}
+
+div .login {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 9px 2px 1px 1px;
+    text-align: center;
+    font-size: medium;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(20, 20, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #fea706;
+}
+
+.login form {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 17px;
+    margin-top: 13px;
+    backdrop-filter: blur(10px);
+
+}
+
+
+.header-text p {
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+    letter-spacing: 0.4em;
+    margin-top: 30px;
+}
+
+.login h2 {
+    position: relative;
+    padding: 19px;
+    margin: 2px;
+    margin-top: 30px;
+    letter-spacing: 0.1em;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+footer pre{
+    text-align: center;
+    text-decoration: none;
+    font: size 15px;
+    margin: 206px 0px 0px 0px;
+    color: #070707;
+}
+
+footer p{
+    display: inherit;
+    text-align: right;
+    font-size: 85%;
+    color: rgb(10, 10, 10);
+}
+
+
+.formgroup input {
+    height: 25px;
+    border-radius: 40px;
+    background: transparent;
+    font-size: large;
+    padding: 3px;
+    margin: 4px;
+    border-radius: 14px;
+}
+
+button {
+    font-size: large;
+    border-radius: 20px;
+    padding: 9px;
+}
+
+button:hover {
+    background: #fea706;
+    color: #fff;
+    border-radius: 21px;
+    text-shadow: none;
+}
+
+.content1 img {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 233px;
+}
+.content1 .p{
+    position: relative;
+    left: 357px;
+    bottom: 231px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing:1px;
+
+}
+.content2 img{
+    position: relative;
+    left: 77%;
+    bottom:204px;
+}
+.content2 .p{
+    position: relative;
+    bottom: 395px;
+    left: 12px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing:1px;
+}
+.arrow img {
+    position:relative ;
+    bottom: 782px;
+    left: 403px;
+}
+
